@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+.tealbox {
+  padding: 8px;
+  background: #e3f4ff;
+}
+
 .card {
   width: 450px;
   background: #fff;
@@ -11,22 +16,18 @@ body {
 }
 
 .title {
-  background: #e3f4ff;
   margin-bottom: 8px;
   margin-top: 0px;
-  padding: 8px;
+  
 }
 
 .content {
-  background: #e3f4ff;
+  
   margin-top: 8px;
-  padding: 8px;
 }
 
 .button-container {
-  background: #e3f4ff;
   margin-top: 8px;
-  padding: 8px;
   text-align: center;
 }
 
