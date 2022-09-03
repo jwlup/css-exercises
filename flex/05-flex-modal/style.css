@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
 }
 
 .icon {
@@ -29,10 +30,35 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.button_cols {
+  display: flex;
+  justify-content: left;
+  gap: 6px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: large;
 }
 
 .close-button {
